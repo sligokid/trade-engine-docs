@@ -8,6 +8,8 @@ Documentation accompanying Trade Engine Solution
   - [Architecture](#architecture)
   - [Demo](#demo)
 
+![docs-diagram](https://cloud.githubusercontent.com/assets/6519496/17114781/5b4eabf4-52a8-11e6-9c2c-65646679ad30.png)
+
 ## Introduction
 
 This Trade Engine is a simulation of a Currency exchange platform created as part of the hiring process with Currency Fair. 
