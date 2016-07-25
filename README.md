@@ -7,9 +7,7 @@ Documentation accompanying Trade Engine Solution
   - [Overview](#overview)
   - [Architecture](#architecture)
   - [Demo](#demo)
-
-![docs-diagram](https://cloud.githubusercontent.com/assets/6519496/17114781/5b4eabf4-52a8-11e6-9c2c-65646679ad30.png)
-
+  - [Limitations](#limitations)
 ## Introduction
 
 This Trade Engine is a simulation of a Currency exchange platform created as part of the hiring process with Currency Fair. 
@@ -22,6 +20,9 @@ No Authentication is requred to use this platform.
 The goal of this project is to showcase a microservice architecture based on Java and Spring Boot.
 
 ## Architecture
+
+![docs-diagram](https://cloud.githubusercontent.com/assets/6519496/17114781/5b4eabf4-52a8-11e6-9c2c-65646679ad30.png)
+
 Three components make up this microservice archtecture.
 - https://github.com/sligokid/trade-engine-api
 - https://github.com/sligokid/trade-engine-pub
@@ -44,3 +45,5 @@ http://ec2-52-16-13-114.eu-west-1.compute.amazonaws.com:8100/
 
 <img width="1375" alt="preview-web" src="https://cloud.githubusercontent.com/assets/6519496/17103716/9b9b08b4-5277-11e6-8cd3-5279b9f5ee02.png" style="max-width:100%;">
 
+##Limitations
+This solution uses HTML5 Server Sent Events, this technology is not supported in Microsoft Internet Explorer
