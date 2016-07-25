@@ -2,7 +2,6 @@
 Documentation accompanying Trade Engine Solution
 
 ## Table of Contents
-
   - [Introduction](#introduction)
   - [Overview](#overview)
   - [Architecture](#architecture)
