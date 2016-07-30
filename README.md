@@ -17,7 +17,7 @@ No Authentication is requred to use this platform.
 
 ## Overview
 
-The goal of this project is to showcase a microservice architecture based on Java and Spring Boot.
+The goal of this project is to showcase a microservice + REST architecture based on Java and Spring Boot.
 
 ## Architecture
 
