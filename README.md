@@ -17,7 +17,7 @@ No Authentication is requred to use this platform.
 
 ## Overview
 
-The goal of this project is to showcase a microservice + REST architecture based on Java and Spring Boot.
+The goal of this project is to showcase a microservice + RESTful architecture based on Java and Spring Boot.
 
 ## Architecture
 
@@ -30,13 +30,17 @@ Three components make up this microservice archtecture.
 
 Data flows API -> PUB -> Web
 
-##Demo
+## Demo
 
 Note: For demonstration purposes a backround job on the server posts a trade every minute. This may skew the statistics of your submitted trades (during the evaluation)
 
 POST trades to this endpoint:
 
 http://ec2-52-16-13-114.eu-west-1.compute.amazonaws.com:8102/api/trade
+
+or 
+
+http://localhost:8102/api/trade
 
 See https://github.com/sligokid/trade-engine-api for more details
 
